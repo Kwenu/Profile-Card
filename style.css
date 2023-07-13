@@ -1,0 +1,58 @@
+.container {
+    max-width: 350px;
+    position: relative;
+    border-radius: 20px;
+    border-style: double;
+    border-color: black;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    margin-left: 550px;
+}
+
+.container:hover > .text-container {
+    top: 57%;
+    transition: all 0.5s ease-in-out;
+}
+
+img {
+    width: 650px;
+    height: 700px;
+}
+
+.text-container {
+    position: absolute;
+    top: 86%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    border-style: dotted;
+    transition: all 0.5s ease-in-out;
+}
+
+h1 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 18px;
+    color: blueviolet;
+}
+
+span {
+    margin-left: 120px;
+}
+
+button {
+    border-radius: 15px;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+}
